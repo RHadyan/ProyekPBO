@@ -139,7 +139,7 @@ body {
 }
 .logos-slide{
 display: inline-block;
-animation: 10s slide infinite linear;
+animation: 15s slide infinite linear;
 }
 
 .logos-slide img{
@@ -204,4 +204,24 @@ animation: 10s slide infinite linear;
   width: 1.9em;
   text-align: center;
   display: inline-block;
+}
+
+.sewa .status-kamar{
+  font-size: 60px;
+}
+
+.sewa .landing-page{
+  background-image: url("images/sewa-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.sewa .landing-page .status-kamar{
+  padding-top: 50px;
+}
+
+.sewa .card{
+  border-color: #2F3C1F;
+
 }
