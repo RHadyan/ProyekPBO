@@ -4,7 +4,7 @@
 /* custom skrolbar */
 
 /* delete later */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 html,
 body {
@@ -14,6 +14,7 @@ body {
 /*  */
 ::-webkit-scrollbar {
   width: 9px;
+  height: 0px;
 }
 ::-webkit-scrollbar-track {
   background: #d1e5ff;
@@ -39,7 +40,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.nav-trans{
+.nav-trans {
   background-color: rgba(245, 245, 245, 0.2);
 }
 
@@ -71,120 +72,109 @@ body {
   color: #283618;
   background-image: url(images/kelebihan-bg.png);
 }
-.kelebihan-text{ 
+.kelebihan-text {
   color: #283618;
 }
 .kelebihan img {
   width: 180px;
-
 }
-.box-informasi{
-  background-color: #EBE7E7;
+.box-informasi {
+  background-color: #ebe7e7;
   margin-top: 50px;
 }
 
-.text-box-informasi{
+.text-box-informasi {
   background-color: #d1caca;
 }
-.text-informasi{
-  color: #2F3C1F;
+.text-informasi {
+  color: #2f3c1f;
 }
-.informasi-jarak{
+.informasi-jarak {
   background-image: url(images/informasi-bg.png);
   background-size: cover;
   background-position: center;
-
 }
-
-
-
 
 .comment-container img {
   max-width: 76px;
-  height: 76px; 
+  height: 76px;
 }
-.gambar-carrousel{
+.gambar-carrousel {
   width: 100%;
 }
 
-.nama-toko p{
+.nama-toko p {
   margin-bottom: 0;
 }
-.list-footer{
+.list-footer {
   text-decoration: none;
 }
 
 @keyframes slide {
-  from{
+  from {
     transform: translateX();
   }
-  to{
+  to {
     transform: translateX(-100%);
   }
 }
 
 @keyframes slideup {
-  from{
+  from {
     transform: translateY();
   }
-  to{
+  to {
     transform: translateY(-100%);
   }
 }
 
-.logos{
+.logos {
   overflow: hidden;
   white-space: nowrap;
-  
 }
-.logos-slide{
-display: inline-block;
-animation: 15s slide infinite linear;
+.logos-slide {
+  display: inline-block;
+  animation: 15s slide infinite linear;
 }
 
-.logos-slide img{
+.logos-slide img {
   height: 200px;
   width: 300px;
-  margin: 0 20px 0 20px ;
+  margin: 0 20px 0 20px;
   border-radius: 10px;
 }
 /* css fasilitas */
 
-.fasilitas .nav-bg{
+.fasilitas .nav-bg {
   background-color: #283618;
 }
-.fasilitas-kamar-kos{
-  background-color:#283618 ;
+.fasilitas-kamar-kos {
+  background-color: #283618;
 }
 
 /* .fasilitas .list-peraturan{
   background-color:#664120 ;
 } */
 
-.text-header-fasilitas{
+.text-header-fasilitas {
   font-size: 93px;
 }
-.text-header-kos{
+.text-header-kos {
   font-size: 67px;
   margin-top: -200px;
 }
 
-.fasilitas .pembatas-fasilitas{
+.fasilitas .pembatas-fasilitas {
   background-color: #283618;
 }
 
-.fasilitas .rules{
-  background-color:#664120 ;
+.fasilitas .rules {
+  background-color: #664120;
   padding: 50px;
   border-radius: 20px;
   /* background-image: url(images/peraturan-bg.png);
   background-position: center;
   background-size: cover; */
-
-}
-
-.fasilitas{
-  
 }
 
 .fasilitas ol {
@@ -206,22 +196,68 @@ animation: 15s slide infinite linear;
   display: inline-block;
 }
 
-.sewa .status-kamar{
+.sewa .status-kamar {
   font-size: 60px;
 }
 
-.sewa .landing-page{
+.sewa .landing-page {
   background-image: url("images/sewa-bg.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
-.sewa .landing-page .status-kamar{
+.sewa .landing-page .status-kamar {
   padding-top: 50px;
 }
 
-.sewa .card{
-  border-color: #2F3C1F;
+.sewa .card {
+  border-color: #2f3c1f;
+}
+.sewa .kontener-gambar {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+/* login admin */
+.login-admin .nav-bg {
+  background-color: #283618;
+}
 
+.login-admin .img-login {
+  border-radius: 20px;
+}
+
+.login-admin {
+  background-color: #fff;
+}
+
+.login-admin .form-login {
+  padding: 0 100px 0 100px;
+}
+
+.login-admin .form-login .form-control {
+  padding: 10px;
+}
+
+.login-admin .btnMasuk {
+  padding: 10px;
+}
+.login-admin label {
+  color: #283618;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.login-admin .text-admin {
+  font-size: 93px;
+  color: #283618;
+  margin-top: -200px;
+}
+.login-admin input{
+  background-color: #D9D9D9;
 }
